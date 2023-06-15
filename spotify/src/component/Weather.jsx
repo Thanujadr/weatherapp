@@ -27,7 +27,7 @@ const Weather = ()=>{
 
          <div className="search">
 
-         <input type="text" onChange={(e)=>{setplaceid(e.target.value)}}/>
+         <input type="text" onChange={(e)=>{setplaceid(e.target.value)}} placeholder="Enter the place name"/>
          <button onClick={handleweather}>Search</button>
 
          </div>
